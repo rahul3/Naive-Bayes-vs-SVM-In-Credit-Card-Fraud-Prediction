@@ -1,0 +1,197 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.functions.LibSVM -- -S 0 -K 1 -D 3 -G 0.0625 -R 0.0 -N 0.5 -M 40.0 -C 6.103515625E-5 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8" -seed 1
+Relation:     August_800_900_SMOTE-weka.filters.unsupervised.attribute.Remove-R1,11-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    5916
+Attributes:   74
+              Trn Typ=M
+              Trn Typ=P
+              Trn Typ=C
+              Dollar Strat
+              Transaction Tag
+              Trn Pin Vrfy Cd=I
+              Trn Cvv Vrfy Cd=I
+              Trn Pos Ent Cd=K
+              Trn Pos Ent Cd=U
+              Trn Pos Ent Cd=E
+              Trn Pos Ent Cd=V
+              Trn Pos Ent Cd=C
+              Sic Cd
+              Mer Cnty Cd
+              Usr Dat 4=US-2016-0574A-IC
+              Usr Dat 4=US-2015-1008E-PA_1
+              Usr Dat 4=US-2016-0665A-PA
+              Usr Dat 4=US-2016-0242D-IC
+              Usr Dat 4=US-2015-1236B-PA
+              Usr Dat 4=US-2015-1008E-PA_2
+              Usr Dat 4=US-2015-1008C-PA
+              Usr Dat 4=US-2015-1420E-IC_1
+              Usr Dat 4=US-2016-0375A-IC
+              Usr Dat 4=US-2016-0583A-PA
+              Usr Dat 4=US-2015-0286B-PA
+              Usr Dat 4=US-2016-0410B-IC
+              Usr Dat 4=US-2015-1420A-PA_1
+              Usr Dat 4=US-2016-0183C-PA_1
+              Usr Dat 4=US-2016-0041C-IC
+              Usr Dat 4=US-2015-1331A-PA
+              Usr Dat 4=US-2016-0183G-PA_07
+              Usr Dat 4=US-2016-0242C-IC
+              Usr Dat 4=US-2015-1236A-PA
+              Usr Dat 4=US-2016-0183A-PA
+              Usr Dat 4=US-2016-0242E-IC
+              Usr Dat 4=US-2016-0590A-PA
+              Usr Dat 4=US-2015-1459B-PA
+              Usr Dat 4=US-2015-0586H-IC_03
+              Usr Dat 4=US-2015-1420D-IC
+              Usr Dat 4=US-2016-0307B-PA_02
+              Usr Dat 4=US-2016-0327A-PA
+              Usr Dat 4=US-2015-0747B-IC
+              Usr Dat 4=US-2016-0267A-PA
+              Usr Dat 4=US-2016-0582A-PA
+              Usr Dat 4=US-2015-1459A-PA
+              Usr Dat 4=US-2016-0307B-PA_01
+              Usr Dat 4=US-2015-1008D-PA
+              Usr Dat 4=US-2015-1053A-PA
+              Usr Dat 4=US-2016-0183B-PA
+              Usr Dat 4=US-2015-1186B-IC
+              Usr Dat 4=US-2016-0542A-PA
+              Usr Dat 4=US-2016-0181A-PA
+              Usr Dat 4=US-2015-1420C-PA
+              Usr Dat 4=US-2016-0183G-PA_08
+              Usr Dat 4=US-2016-0041A-PA
+              Usr Dat 4=US-2015-0420B-IC
+              Usr Dat 4=US-2016-0183H-PA_04
+              Usr Dat 4=US-2016-0622A-PA
+              Usr Dat 4=US-2016-0493C-IC_05
+              Usr Dat 4=US-2016-0654A-PA
+              Usr Dat 4=US-2015-0510B-PA
+              Usr Dat 4=US-2015-1008B-PA
+              Usr Dat 4=US-2016-0625A-PA
+              Usr Dat 4=US-2014-0791C-PA
+              Usr Dat 4=US-2016-0129B-PA
+              Cryptogram Valid
+              Diffzip3=Same
+              Travel_Ent_SIC
+              SIC1
+              SIC2
+              Metro
+              VAA Strat
+              Falcon Score Strat
+              PAD Strat
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+Attribute mappings:
+
+Model attributes                         	    Incoming attributes
+-----------------------------------------	    ----------------
+(numeric) Trn Typ=M                      	--> 1 (numeric) Trn Typ=M
+(numeric) Trn Typ=P                      	--> 2 (numeric) Trn Typ=P
+(numeric) Trn Typ=C                      	--> 3 (numeric) Trn Typ=C
+(numeric) Dollar Strat                   	--> 4 (numeric) Dollar Strat
+(nominal) Transaction Tag                	--> 5 (nominal) Transaction Tag
+(numeric) Trn Pin Vrfy Cd=I              	--> - missing (no match)
+(numeric) Trn Cvv Vrfy Cd=I              	--> 7 (numeric) Trn Cvv Vrfy Cd=I
+(numeric) Trn Pos Ent Cd=K               	--> 8 (numeric) Trn Pos Ent Cd=K
+(numeric) Trn Pos Ent Cd=U               	--> 10 (numeric) Trn Pos Ent Cd=U
+(numeric) Trn Pos Ent Cd=E               	--> 9 (numeric) Trn Pos Ent Cd=E
+(numeric) Trn Pos Ent Cd=V               	--> 11 (numeric) Trn Pos Ent Cd=V
+(numeric) Trn Pos Ent Cd=C               	--> 12 (numeric) Trn Pos Ent Cd=C
+(numeric) Sic Cd                         	--> 14 (numeric) Sic Cd
+(numeric) Mer Cnty Cd                    	--> 15 (numeric) Mer Cnty Cd
+(numeric) Usr Dat 4=US-2016-0574A-IC     	--> 30 (numeric) Usr Dat 4=US-2016-0574A-IC
+(numeric) Usr Dat 4=US-2015-1008E-PA_1   	--> 16 (numeric) Usr Dat 4=US-2015-1008E-PA_1
+(numeric) Usr Dat 4=US-2016-0665A-PA     	--> 26 (numeric) Usr Dat 4=US-2016-0665A-PA
+(numeric) Usr Dat 4=US-2016-0242D-IC     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1236B-PA     	--> 18 (numeric) Usr Dat 4=US-2015-1236B-PA
+(numeric) Usr Dat 4=US-2015-1008E-PA_2   	--> 39 (numeric) Usr Dat 4=US-2015-1008E-PA_2
+(numeric) Usr Dat 4=US-2015-1008C-PA     	--> 24 (numeric) Usr Dat 4=US-2015-1008C-PA
+(numeric) Usr Dat 4=US-2015-1420E-IC_1   	--> 19 (numeric) Usr Dat 4=US-2015-1420E-IC_1
+(numeric) Usr Dat 4=US-2016-0375A-IC     	--> 65 (numeric) Usr Dat 4=US-2016-0375A-IC
+(numeric) Usr Dat 4=US-2016-0583A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0286B-PA     	--> 51 (numeric) Usr Dat 4=US-2015-0286B-PA
+(numeric) Usr Dat 4=US-2016-0410B-IC     	--> 47 (numeric) Usr Dat 4=US-2016-0410B-IC
+(numeric) Usr Dat 4=US-2015-1420A-PA_1   	--> 32 (numeric) Usr Dat 4=US-2015-1420A-PA_1
+(numeric) Usr Dat 4=US-2016-0183C-PA_1   	--> 33 (numeric) Usr Dat 4=US-2016-0183C-PA_1
+(numeric) Usr Dat 4=US-2016-0041C-IC     	--> 22 (numeric) Usr Dat 4=US-2016-0041C-IC
+(numeric) Usr Dat 4=US-2015-1331A-PA     	--> 42 (numeric) Usr Dat 4=US-2015-1331A-PA
+(numeric) Usr Dat 4=US-2016-0183G-PA_07  	--> 43 (numeric) Usr Dat 4=US-2016-0183G-PA_07
+(numeric) Usr Dat 4=US-2016-0242C-IC     	--> 23 (numeric) Usr Dat 4=US-2016-0242C-IC
+(numeric) Usr Dat 4=US-2015-1236A-PA     	--> 29 (numeric) Usr Dat 4=US-2015-1236A-PA
+(numeric) Usr Dat 4=US-2016-0183A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0242E-IC     	--> 31 (numeric) Usr Dat 4=US-2016-0242E-IC
+(numeric) Usr Dat 4=US-2016-0590A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1459B-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0586H-IC_03  	--> 36 (numeric) Usr Dat 4=US-2015-0586H-IC_03
+(numeric) Usr Dat 4=US-2015-1420D-IC     	--> 25 (numeric) Usr Dat 4=US-2015-1420D-IC
+(numeric) Usr Dat 4=US-2016-0307B-PA_02  	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0327A-PA     	--> 35 (numeric) Usr Dat 4=US-2016-0327A-PA
+(numeric) Usr Dat 4=US-2015-0747B-IC     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0267A-PA     	--> 37 (numeric) Usr Dat 4=US-2016-0267A-PA
+(numeric) Usr Dat 4=US-2016-0582A-PA     	--> 54 (numeric) Usr Dat 4=US-2016-0582A-PA
+(numeric) Usr Dat 4=US-2015-1459A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0307B-PA_01  	--> 57 (numeric) Usr Dat 4=US-2016-0307B-PA_01
+(numeric) Usr Dat 4=US-2015-1008D-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1053A-PA     	--> 21 (numeric) Usr Dat 4=US-2015-1053A-PA
+(numeric) Usr Dat 4=US-2016-0183B-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1186B-IC     	--> 60 (numeric) Usr Dat 4=US-2015-1186B-IC
+(numeric) Usr Dat 4=US-2016-0542A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0181A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1420C-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0183G-PA_08  	--> 53 (numeric) Usr Dat 4=US-2016-0183G-PA_08
+(numeric) Usr Dat 4=US-2016-0041A-PA     	--> 67 (numeric) Usr Dat 4=US-2016-0041A-PA
+(numeric) Usr Dat 4=US-2015-0420B-IC     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0183H-PA_04  	--> 45 (numeric) Usr Dat 4=US-2016-0183H-PA_04
+(numeric) Usr Dat 4=US-2016-0622A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0493C-IC_05  	--> 34 (numeric) Usr Dat 4=US-2016-0493C-IC_05
+(numeric) Usr Dat 4=US-2016-0654A-PA     	--> 49 (numeric) Usr Dat 4=US-2016-0654A-PA
+(numeric) Usr Dat 4=US-2015-0510B-PA     	--> 27 (numeric) Usr Dat 4=US-2015-0510B-PA
+(numeric) Usr Dat 4=US-2015-1008B-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0625A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2014-0791C-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0129B-PA     	--> - missing (no match)
+(numeric) Cryptogram Valid               	--> 68 (numeric) Cryptogram Valid
+(numeric) Diffzip3=Same                  	--> 69 (numeric) Diffzip3=Same
+(numeric) Travel_Ent_SIC                 	--> 70 (numeric) Travel_Ent_SIC
+(numeric) SIC1                           	--> 71 (numeric) SIC1
+(numeric) SIC2                           	--> 72 (numeric) SIC2
+(numeric) Metro                          	--> 73 (numeric) Metro
+(numeric) VAA Strat                      	--> 74 (numeric) VAA Strat
+(numeric) Falcon Score Strat             	--> 75 (numeric) Falcon Score Strat
+(numeric) PAD Strat                      	--> 76 (numeric) PAD Strat
+
+
+Time taken to build model: 0.93 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.58 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1694               29.8502 %
+Incorrectly Classified Instances      3981               70.1498 %
+Kappa statistic                          0.009 
+Mean absolute error                      0.7015
+Root mean squared error                  0.8376
+Relative absolute error               1008.3938 %
+Root relative squared error            424.2983 %
+Total Number of Instances             5675     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.804    0.723    0.045      0.804    0.085      0.036    0.541     0.044     Fraud
+                 0.277    0.196    0.971      0.277    0.431      0.036    0.541     0.963     Valid
+Weighted Avg.    0.299    0.217    0.934      0.299    0.417      0.036    0.541     0.925     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  185   45 |    a = Fraud
+ 3936 1509 |    b = Valid
+

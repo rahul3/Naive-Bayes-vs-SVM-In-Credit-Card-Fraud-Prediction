@@ -1,0 +1,43 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8" -seed 1
+Relation:     Suncoast_September_300_350-weka.filters.unsupervised.attribute.Remove-R1,11-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    29495
+Attributes:   112
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 3.71 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 2.96 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       29476               99.9356 %
+Incorrectly Classified Instances        19                0.0644 %
+Kappa statistic                          0     
+Mean absolute error                      0.0006
+Root mean squared error                  0.0254
+Relative absolute error                 48.7519 %
+Root relative squared error            100.0321 %
+Total Number of Instances            29495     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.999      1.000    1.000      0.000    0.500     0.999     Valid
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.001     Fraud
+Weighted Avg.    0.999    0.999    0.999      0.999    0.999      0.000    0.500     0.999     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 29476     0 |     a = Valid
+    19     0 |     b = Fraud
+

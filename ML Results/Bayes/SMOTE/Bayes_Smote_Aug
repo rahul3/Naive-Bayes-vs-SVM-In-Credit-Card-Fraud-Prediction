@@ -1,0 +1,322 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     August_Smote_Replacement
+Instances:    1241063
+Attributes:   18
+              Trn Typ
+              Dollar Strat
+              Transaction Tag
+              Trn Pin Vrfy Cd
+              Trn Cvv Vrfy Cd
+              Trn Pos Ent Cd
+              Sic Cd
+              Mer Cnty Cd
+              Usr Dat 4
+              Cryptogram Valid
+              Diffzip3
+              Travel_Ent_SIC
+              SIC1
+              SIC2
+              Metro
+              VAA Strat
+              Falcon Score Strat
+              PAD Strat
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                            Class
+Attribute                   Fraud     Valid
+                           (0.01)    (0.99)
+============================================
+Trn Typ
+  M                        12830.0 1082739.0
+  P                          445.0   99538.0
+  A                          395.0   37651.0
+  C                           37.0    5577.0
+  O                            8.0     912.0
+  I                            2.0     917.0
+  V                            1.0      25.0
+  [total]                  13718.0 1227359.0
+
+Dollar Strat
+  mean                    192.2191   57.8155
+  std. dev.                 652.43  230.3285
+  weight sum                 13711   1227352
+  precision                 0.5261    0.5261
+
+Trn Pin Vrfy Cd
+  I                           23.0    2896.0
+  V                            9.0    2749.0
+  [total]                     32.0    5645.0
+
+Trn Cvv Vrfy Cd
+  V                        10199.0  947844.0
+  I                          291.0    4228.0
+  [total]                  10490.0  952072.0
+
+Trn Pos Ent Cd
+  K                         2542.0  165594.0
+  E                         5193.0  216796.0
+  U                         5674.0  657292.0
+  V                           83.0  186017.0
+  C                          184.0     696.0
+  D                           26.0     231.0
+  S                            7.0      33.0
+  T                            1.0       4.0
+  [total]                  13710.0 1226663.0
+
+Sic Cd
+  mean                   5755.5072 5803.9972
+  std. dev.               921.0362  992.1855
+  weight sum                 13711   1227350
+  precision                19.5605   19.5605
+
+Mer Cnty Cd
+  mean                    796.8752  835.7505
+  std. dev.               139.4073   38.1106
+  weight sum                 13568   1222432
+  precision                    6.5       6.5
+
+Usr Dat 4
+  US-2016-0574A-IC            26.0    3704.0
+  US-2015-1420E-IC_1          78.0    3221.0
+  US-2015-1236A-PA           175.0   13667.0
+  US-2016-0183C-PA_1          15.0    1434.0
+  US-2015-1008E-PA_1         297.0   13137.0
+  US-2015-1420B-PA            24.0      82.0
+  US-2015-1007A-RE             3.0     210.0
+  US-2016-0183G-PA_07         27.0    1630.0
+  US-2016-0242D-IC             9.0     407.0
+  US-2015-1236B-PA           179.0   11307.0
+  US-2015-1008E-PA_2          19.0     863.0
+  US-2015-1420A-PA_1         430.0    6573.0
+  US-2016-0242C-IC            17.0    2386.0
+  US-2015-1008C-PA            96.0    5713.0
+  US-2016-0403B-PA_01          6.0     179.0
+  US-2015-1331A-PA            20.0    1014.0
+  US-2016-0041C-IC            46.0    4198.0
+  US-2016-0183G-PA_08          4.0     229.0
+  US-2016-0665A-PA             4.0     514.0
+  US-2016-0233B-IC            16.0     168.0
+  US-2016-0562C-IC             3.0     258.0
+  US-2016-0650B-PA             2.0       7.0
+  US-2016-0375A-IC             8.0     200.0
+  US-2016-0493C-IC_05          4.0     681.0
+  US-2014-1131E-IC_03        587.0       1.0
+  US-2015-1420A-PA_2          25.0     306.0
+  US-2016-0041A-PA           131.0     580.0
+  US-2015-0586A-PA            33.0       1.0
+  US-2015-0451A-PA_2          38.0       1.0
+  US-2014-1131E-IC_02         66.0       1.0
+  US-2015-0335A-PA             9.0       1.0
+  US-2014-1131F-IC_03          4.0       1.0
+  US-2016-0410A-PA             8.0       9.0
+  US-2015-0286B-PA            18.0    1964.0
+  US-2015-1318B-PA             4.0       1.0
+  US-2015-0458B-PA             2.0       1.0
+  US-2016-0310A-IC             8.0      25.0
+  US-2015-0586E-PA_1          15.0       1.0
+  US-2016-0242A-PA            22.0      24.0
+  US-2015-1420E-IC_2          14.0     116.0
+  US-2014-0987AH-IC_0         21.0     447.0
+  US-2015-0458C-PA            34.0       1.0
+  US-2016-0183H-PA_04         15.0     646.0
+  US-2016-0242E-IC             7.0     489.0
+  US-2016-0493A-PA_2          13.0     482.0
+  US-2015-0282C-PA             3.0       1.0
+  US-2015-0458D-PA             6.0       1.0
+  US-2015-1406A-PA             4.0       1.0
+  US-2015-0664A-PA             2.0       1.0
+  US-2015-1460A-PA             4.0       1.0
+  US-2015-1008D-PA             9.0     311.0
+  US-2016-0238A-PA             2.0      19.0
+  US-2016-0454A-PA             4.0       1.0
+  US-2014-0791C-PA             4.0      48.0
+  US-2015-0693A-PA             6.0       1.0
+  US-2015-0458A-PA             5.0       1.0
+  US-2015-0586F-PA             5.0       1.0
+  US-2015-1331B-PA             2.0     167.0
+  EU-2015-1014B-PA             3.0     284.0
+  US-2015-1186B-IC             8.0     356.0
+  US-2016-0233A-PA             3.0     227.0
+  US-2016-0327A-PA            12.0     581.0
+  US-2015-1420D-IC            12.0    1853.0
+  US-2015-0747A-PA             2.0       1.0
+  US-2015-0272B-PA             2.0       1.0
+  US-2015-1057D-PA             5.0       1.0
+  US-2015-1008E-PA_0           2.0       1.0
+  US-2014-0987AE-IC_0          3.0     283.0
+  US-2016-0307B-PA_01          1.0    1044.0
+  US-2016-0582A-PA             1.0    1147.0
+  US-2016-0429A-PA             1.0     342.0
+  US-2016-0542A-PA             1.0     624.0
+  US-2015-1319A-PA             1.0     414.0
+  US-2015-1008A-PA             1.0      35.0
+  US-2016-0613A-PA             1.0      31.0
+  US-2016-0610A-PA             1.0      22.0
+  US-2016-0415A-PA             1.0     177.0
+  US-2016-0602A-PA             1.0      11.0
+  US-2016-0566A-PA             1.0     406.0
+  US-2015-1187D-IC             1.0     159.0
+  US-2016-0273E-PA             1.0      90.0
+  US-2015-1459B-PA             1.0     487.0
+  US-2015-1187C-IC             1.0      27.0
+  US-2016-0603A-PA             1.0      32.0
+  US-2015-1459A-PA             1.0     160.0
+  US-2016-0410B-IC             1.0     544.0
+  US-2016-0572A-PA             1.0      41.0
+  US-2015-0420B-IC             1.0     159.0
+  US-2016-0307B-PA_02          1.0     353.0
+  US-2015-1420C-PA             1.0      73.0
+  US-2016-0183J-PA             1.0      53.0
+  US-2014-0987AH-IC_1          1.0      67.0
+  LA-2015-1264A-PA             1.0      10.0
+  US-2015-0510B-PA             1.0      65.0
+  US-2016-0583A-PA             1.0      35.0
+  US-2015-0795M-IC             1.0      33.0
+  US-2016-0594A-PA             1.0      14.0
+  US-2015-1247A-PA             1.0     148.0
+  US-2016-0586A-PA             1.0      10.0
+  US-2016-0558A-PA             1.0      39.0
+  US-2016-0267A-PA             1.0     185.0
+  US-2015-0747B-IC             1.0      65.0
+  US-2016-0493A-PA_3           1.0       3.0
+  US-2016-0183A-PA             1.0     116.0
+  US-2016-0485A-PA             1.0      80.0
+  US-2016-0549C-RA             1.0      88.0
+  US-2015-0320B-IC             1.0     167.0
+  US-2016-0593A-PA             1.0      34.0
+  US-2016-0177A-LE             1.0       5.0
+  US-2016-0560A-PA             1.0      14.0
+  US-2015-1420F-IC             1.0     151.0
+  US-2015-1053A-PA             1.0      71.0
+  US-2016-0589A-PA             1.0       4.0
+  US-2016-0181A-PA             1.0     171.0
+  US-2015-1008B-PA             1.0      81.0
+  US-2016-0590A-PA             1.0      62.0
+  US-2016-0599A-PA             1.0      38.0
+  US-2016-0183B-PA             1.0      44.0
+  US-2016-0183F-PA             1.0     124.0
+  US-2016-0604A-PA             1.0      22.0
+  US-2016-0585A-PA             1.0      17.0
+  US-2015-0692B-IC             1.0      92.0
+  US-2016-0611A-PA             1.0       6.0
+  US-2016-0612A-PA             1.0      10.0
+  US-2016-0609A-PA             1.0      26.0
+  US-2016-0624A-PA             1.0      25.0
+  US-2016-0622A-PA             1.0     101.0
+  US-2016-0386A-PA             1.0       6.0
+  US-2015-0286C-PA             1.0      17.0
+  US-2016-0493C-IC_06          1.0      34.0
+  US-2016-0625A-PA             1.0      65.0
+  US-2015-1290A-PA             1.0      41.0
+  US-2015-1118A-PA             1.0      12.0
+  US-2016-0636A-PA             1.0      13.0
+  US-2016-0365D-PA             1.0      17.0
+  US-2016-0183K-PA             1.0       8.0
+  US-2016-0365G-PA             1.0      23.0
+  US-2014-0987AE-IC_1          1.0       6.0
+  US-2016-0643A-PA             1.0       7.0
+  US-2016-0562E-IC             1.0       2.0
+  US-2016-0565A-PA             1.0       2.0
+  US-2016-0404F-IC             1.0       3.0
+  US-2016-0129B-PA             1.0      44.0
+  US-2015-0586H-IC_03          1.0     608.0
+  US-2016-0654A-PA             1.0     110.0
+  US-2015-0586H-IC_04          1.0     360.0
+  US-2016-0656A-PA             1.0      62.0
+  US-2016-0183L-PA             1.0      25.0
+  US-2016-0273A-PA             1.0       5.0
+  US-2016-0664A-PA             1.0      14.0
+  US-2016-0654B-PA             1.0      14.0
+  US-2016-0183M-PA             1.0       5.0
+  US-2016-0542B-IC             1.0      34.0
+  US-2016-0672A-PA             1.0       4.0
+  US-2016-0675A-PA             1.0      11.0
+  US-2016-0676A-PA             1.0       8.0
+  [total]                   2778.0   91236.0
+
+Cryptogram Valid
+  V                           83.0  185978.0
+  [total]                     83.0  185978.0
+
+Diffzip3
+  DiffZip3                 12927.0  588083.0
+  Same                       786.0  639271.0
+  [total]                  13713.0 1227354.0
+
+Travel_Ent_SIC
+  mean                      0.8491    0.7863
+  std. dev.                  0.358    0.4099
+  weight sum                 13711   1227352
+  precision                      1         1
+
+SIC1
+  mean                      5.1358    5.1855
+  std. dev.                 0.9178    1.0283
+  weight sum                 13711   1227350
+  precision                      1         1
+
+SIC2
+  mean                     57.3173   57.8045
+  std. dev.                 9.0854    9.8664
+  weight sum                 13711   1227350
+  precision                 1.7963    1.7963
+
+Metro
+  mean                      9.4732   10.4939
+  std. dev.                11.1169   10.7521
+  weight sum                 13711   1227352
+  precision                      1         1
+
+VAA Strat
+  mean                     47.7043   14.7956
+  std. dev.                22.4846    8.5683
+  weight sum                 13711   1227352
+  precision                      1         1
+
+Falcon Score Strat
+  mean                    759.6524  135.3699
+  std. dev.               299.4205  149.1554
+  weight sum                 13711   1227352
+  precision                  1.005     1.005
+
+PAD Strat
+  mean                    594.2534  103.4912
+  std. dev.               384.5458   143.493
+  weight sum                 13711   1227352
+  precision                  1.003     1.003
+
+
+
+Time taken to build model: 3.64 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     1200797               96.7555 %
+Incorrectly Classified Instances     40266                3.2445 %
+Kappa statistic                          0.3471
+Mean absolute error                      0.0331
+Root mean squared error                  0.1731
+Relative absolute error                151.6819 %
+Root relative squared error            165.6415 %
+Total Number of Instances          1241063     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.820    0.031    0.229      0.820    0.358      0.423    0.967     0.302     Fraud
+                 0.969    0.180    0.998      0.969    0.983      0.423    0.967     1.000     Valid
+Weighted Avg.    0.968    0.178    0.989      0.968    0.976      0.423    0.967     0.992     
+
+=== Confusion Matrix ===
+
+       a       b   <-- classified as
+   11245    2466 |       a = Fraud
+   37800 1189552 |       b = Valid
+

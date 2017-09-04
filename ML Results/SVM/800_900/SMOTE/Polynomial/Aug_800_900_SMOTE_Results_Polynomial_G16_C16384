@@ -1,0 +1,113 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 1 -D 3 -G 16.0 -R 0.0 -N 0.5 -M 40.0 -C 16384.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8" -seed 1
+Relation:     August_800_900_SMOTE-weka.filters.unsupervised.attribute.Remove-R1,11-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    5916
+Attributes:   74
+              Trn Typ=M
+              Trn Typ=P
+              Trn Typ=C
+              Dollar Strat
+              Transaction Tag
+              Trn Pin Vrfy Cd=I
+              Trn Cvv Vrfy Cd=I
+              Trn Pos Ent Cd=K
+              Trn Pos Ent Cd=U
+              Trn Pos Ent Cd=E
+              Trn Pos Ent Cd=V
+              Trn Pos Ent Cd=C
+              Sic Cd
+              Mer Cnty Cd
+              Usr Dat 4=US-2016-0574A-IC
+              Usr Dat 4=US-2015-1008E-PA_1
+              Usr Dat 4=US-2016-0665A-PA
+              Usr Dat 4=US-2016-0242D-IC
+              Usr Dat 4=US-2015-1236B-PA
+              Usr Dat 4=US-2015-1008E-PA_2
+              Usr Dat 4=US-2015-1008C-PA
+              Usr Dat 4=US-2015-1420E-IC_1
+              Usr Dat 4=US-2016-0375A-IC
+              Usr Dat 4=US-2016-0583A-PA
+              Usr Dat 4=US-2015-0286B-PA
+              Usr Dat 4=US-2016-0410B-IC
+              Usr Dat 4=US-2015-1420A-PA_1
+              Usr Dat 4=US-2016-0183C-PA_1
+              Usr Dat 4=US-2016-0041C-IC
+              Usr Dat 4=US-2015-1331A-PA
+              Usr Dat 4=US-2016-0183G-PA_07
+              Usr Dat 4=US-2016-0242C-IC
+              Usr Dat 4=US-2015-1236A-PA
+              Usr Dat 4=US-2016-0183A-PA
+              Usr Dat 4=US-2016-0242E-IC
+              Usr Dat 4=US-2016-0590A-PA
+              Usr Dat 4=US-2015-1459B-PA
+              Usr Dat 4=US-2015-0586H-IC_03
+              Usr Dat 4=US-2015-1420D-IC
+              Usr Dat 4=US-2016-0307B-PA_02
+              Usr Dat 4=US-2016-0327A-PA
+              Usr Dat 4=US-2015-0747B-IC
+              Usr Dat 4=US-2016-0267A-PA
+              Usr Dat 4=US-2016-0582A-PA
+              Usr Dat 4=US-2015-1459A-PA
+              Usr Dat 4=US-2016-0307B-PA_01
+              Usr Dat 4=US-2015-1008D-PA
+              Usr Dat 4=US-2015-1053A-PA
+              Usr Dat 4=US-2016-0183B-PA
+              Usr Dat 4=US-2015-1186B-IC
+              Usr Dat 4=US-2016-0542A-PA
+              Usr Dat 4=US-2016-0181A-PA
+              Usr Dat 4=US-2015-1420C-PA
+              Usr Dat 4=US-2016-0183G-PA_08
+              Usr Dat 4=US-2016-0041A-PA
+              Usr Dat 4=US-2015-0420B-IC
+              Usr Dat 4=US-2016-0183H-PA_04
+              Usr Dat 4=US-2016-0622A-PA
+              Usr Dat 4=US-2016-0493C-IC_05
+              Usr Dat 4=US-2016-0654A-PA
+              Usr Dat 4=US-2015-0510B-PA
+              Usr Dat 4=US-2015-1008B-PA
+              Usr Dat 4=US-2016-0625A-PA
+              Usr Dat 4=US-2014-0791C-PA
+              Usr Dat 4=US-2016-0129B-PA
+              Cryptogram Valid
+              Diffzip3=Same
+              Travel_Ent_SIC
+              SIC1
+              SIC2
+              Metro
+              VAA Strat
+              Falcon Score Strat
+              PAD Strat
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 134.58 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4616               78.0257 %
+Incorrectly Classified Instances      1300               21.9743 %
+Kappa statistic                          0.0302
+Mean absolute error                      0.2197
+Root mean squared error                  0.4688
+Relative absolute error                359.8317 %
+Root relative squared error            268.6276 %
+Total Number of Instances             5916     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.317    0.205    0.048      0.317    0.083      0.048    0.556     0.037     Fraud
+                 0.795    0.683    0.973      0.795    0.875      0.048    0.556     0.972     Valid
+Weighted Avg.    0.780    0.668    0.944      0.780    0.850      0.048    0.556     0.943     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   59  127 |    a = Fraud
+ 1173 4557 |    b = Valid
+

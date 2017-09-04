@@ -1,0 +1,166 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.functions.LibSVM -- -S 0 -K 2 -D 3 -G 32.0 -R 0.0 -N 0.5 -M 40.0 -C 32768.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8" -seed 1
+Relation:     August_300_350_SMOTE-weka.filters.unsupervised.attribute.Remove-R1,11-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    33025
+Attributes:   116
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+Attribute mappings:
+
+Model attributes                         	    Incoming attributes
+-----------------------------------------	    ----------------
+(numeric) Trn Typ=M                      	--> 1 (numeric) Trn Typ=M
+(numeric) Trn Typ=P                      	--> 2 (numeric) Trn Typ=P
+(numeric) Trn Typ=C                      	--> 3 (numeric) Trn Typ=C
+(numeric) Dollar Strat                   	--> 4 (numeric) Dollar Strat
+(nominal) Transaction Tag                	--> 5 (nominal) Transaction Tag
+(numeric) Trn Pin Vrfy Cd=V              	--> 6 (numeric) Trn Pin Vrfy Cd=V
+(numeric) Trn Cvv Vrfy Cd=I              	--> 7 (numeric) Trn Cvv Vrfy Cd=I
+(numeric) Trn Pos Ent Cd=E               	--> 9 (numeric) Trn Pos Ent Cd=E
+(numeric) Trn Pos Ent Cd=U               	--> 10 (numeric) Trn Pos Ent Cd=U
+(numeric) Trn Pos Ent Cd=K               	--> 8 (numeric) Trn Pos Ent Cd=K
+(numeric) Trn Pos Ent Cd=V               	--> 11 (numeric) Trn Pos Ent Cd=V
+(numeric) Trn Pos Ent Cd=C               	--> 12 (numeric) Trn Pos Ent Cd=C
+(numeric) Trn Pos Ent Cd=D               	--> 14 (numeric) Trn Pos Ent Cd=D
+(numeric) Trn Pos Ent Cd=S               	--> 13 (numeric) Trn Pos Ent Cd=S
+(numeric) Sic Cd                         	--> 15 (numeric) Sic Cd
+(numeric) Mer Cnty Cd                    	--> 16 (numeric) Mer Cnty Cd
+(numeric) Usr Dat 4=US-2015-1236A-PA     	--> 17 (numeric) Usr Dat 4=US-2015-1236A-PA
+(numeric) Usr Dat 4=US-2016-0183G-PA_07  	--> 29 (numeric) Usr Dat 4=US-2016-0183G-PA_07
+(numeric) Usr Dat 4=US-2015-1008E-PA_1   	--> 30 (numeric) Usr Dat 4=US-2015-1008E-PA_1
+(numeric) Usr Dat 4=US-2016-0242C-IC     	--> 24 (numeric) Usr Dat 4=US-2016-0242C-IC
+(numeric) Usr Dat 4=US-2016-0242D-IC     	--> 27 (numeric) Usr Dat 4=US-2016-0242D-IC
+(numeric) Usr Dat 4=US-2015-1236B-PA     	--> 20 (numeric) Usr Dat 4=US-2015-1236B-PA
+(numeric) Usr Dat 4=US-2015-1008C-PA     	--> 31 (numeric) Usr Dat 4=US-2015-1008C-PA
+(numeric) Usr Dat 4=US-2016-0574A-IC     	--> 40 (numeric) Usr Dat 4=US-2016-0574A-IC
+(numeric) Usr Dat 4=US-2015-1008E-PA_2   	--> 64 (numeric) Usr Dat 4=US-2015-1008E-PA_2
+(numeric) Usr Dat 4=US-2015-1420E-IC_1   	--> 36 (numeric) Usr Dat 4=US-2015-1420E-IC_1
+(numeric) Usr Dat 4=US-2015-1420D-IC     	--> 35 (numeric) Usr Dat 4=US-2015-1420D-IC
+(numeric) Usr Dat 4=US-2016-0582A-PA     	--> 68 (numeric) Usr Dat 4=US-2016-0582A-PA
+(numeric) Usr Dat 4=US-2015-1420A-PA_1   	--> 25 (numeric) Usr Dat 4=US-2015-1420A-PA_1
+(numeric) Usr Dat 4=US-2016-0183C-PA_1   	--> 22 (numeric) Usr Dat 4=US-2016-0183C-PA_1
+(numeric) Usr Dat 4=US-2016-0493C-IC_05  	--> 51 (numeric) Usr Dat 4=US-2016-0493C-IC_05
+(numeric) Usr Dat 4=US-2015-0320B-IC     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0242E-IC     	--> 26 (numeric) Usr Dat 4=US-2016-0242E-IC
+(numeric) Usr Dat 4=US-2016-0566A-PA     	--> 39 (numeric) Usr Dat 4=US-2016-0566A-PA
+(numeric) Usr Dat 4=US-2015-1008D-PA     	--> 28 (numeric) Usr Dat 4=US-2015-1008D-PA
+(numeric) Usr Dat 4=US-2015-0420B-IC     	--> 83 (numeric) Usr Dat 4=US-2015-0420B-IC
+(numeric) Usr Dat 4=US-2016-0549C-RA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1187D-IC     	--> 47 (numeric) Usr Dat 4=US-2015-1187D-IC
+(numeric) Usr Dat 4=US-2016-0041C-IC     	--> 18 (numeric) Usr Dat 4=US-2016-0041C-IC
+(numeric) Usr Dat 4=US-2015-1459B-PA     	--> 55 (numeric) Usr Dat 4=US-2015-1459B-PA
+(numeric) Usr Dat 4=US-2016-0041A-PA     	--> 43 (numeric) Usr Dat 4=US-2016-0041A-PA
+(numeric) Usr Dat 4=US-2015-1420A-PA_2   	--> 90 (numeric) Usr Dat 4=US-2015-1420A-PA_2
+(numeric) Usr Dat 4=US-2015-1008B-PA     	--> 54 (numeric) Usr Dat 4=US-2015-1008B-PA
+(numeric) Usr Dat 4=US-2016-0327A-PA     	--> 57 (numeric) Usr Dat 4=US-2016-0327A-PA
+(numeric) Usr Dat 4=US-2015-1319A-PA     	--> 74 (numeric) Usr Dat 4=US-2015-1319A-PA
+(numeric) Usr Dat 4=US-2016-0307B-PA_01  	--> 44 (numeric) Usr Dat 4=US-2016-0307B-PA_01
+(numeric) Usr Dat 4=US-2015-1420C-PA     	--> 87 (numeric) Usr Dat 4=US-2015-1420C-PA
+(numeric) Usr Dat 4=US-2016-0542A-PA     	--> 48 (numeric) Usr Dat 4=US-2016-0542A-PA
+(numeric) Usr Dat 4=US-2015-1186B-IC     	--> 33 (numeric) Usr Dat 4=US-2015-1186B-IC
+(numeric) Usr Dat 4=US-2015-1008A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0593A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1331A-PA     	--> 61 (numeric) Usr Dat 4=US-2015-1331A-PA
+(numeric) Usr Dat 4=US-2016-0429A-PA     	--> 63 (numeric) Usr Dat 4=US-2016-0429A-PA
+(numeric) Usr Dat 4=US-2016-0485A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0560A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0286B-PA     	--> 38 (numeric) Usr Dat 4=US-2015-0286B-PA
+(numeric) Usr Dat 4=US-2016-0622A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0183H-PA_04  	--> 19 (numeric) Usr Dat 4=US-2016-0183H-PA_04
+(numeric) Usr Dat 4=EU-2015-1014B-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0692B-IC     	--> 76 (numeric) Usr Dat 4=US-2015-0692B-IC
+(numeric) Usr Dat 4=US-2016-0410B-IC     	--> 42 (numeric) Usr Dat 4=US-2016-0410B-IC
+(numeric) Usr Dat 4=US-2014-0987AE-IC_0  	--> 65 (numeric) Usr Dat 4=US-2014-0987AE-IC_0
+(numeric) Usr Dat 4=US-2015-1007A-RE     	--> 58 (numeric) Usr Dat 4=US-2015-1007A-RE
+(numeric) Usr Dat 4=US-2016-0307B-PA_02  	--> 85 (numeric) Usr Dat 4=US-2016-0307B-PA_02
+(numeric) Usr Dat 4=US-2015-1331B-PA     	--> 88 (numeric) Usr Dat 4=US-2015-1331B-PA
+(numeric) Usr Dat 4=US-2016-0493A-PA_2   	--> 59 (numeric) Usr Dat 4=US-2016-0493A-PA_2
+(numeric) Usr Dat 4=US-2016-0183G-PA_08  	--> 50 (numeric) Usr Dat 4=US-2016-0183G-PA_08
+(numeric) Usr Dat 4=US-2015-1420B-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1420E-IC_2   	--> 53 (numeric) Usr Dat 4=US-2015-1420E-IC_2
+(numeric) Usr Dat 4=US-2016-0415A-PA     	--> 72 (numeric) Usr Dat 4=US-2016-0415A-PA
+(numeric) Usr Dat 4=US-2014-0987AH-IC_0  	--> 67 (numeric) Usr Dat 4=US-2014-0987AH-IC_0
+(numeric) Usr Dat 4=US-2016-0375A-IC     	--> 46 (numeric) Usr Dat 4=US-2016-0375A-IC
+(numeric) Usr Dat 4=US-2016-0599A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0562C-IC     	--> 78 (numeric) Usr Dat 4=US-2016-0562C-IC
+(numeric) Usr Dat 4=US-2015-0747B-IC     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0572A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0590A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0233A-PA     	--> 62 (numeric) Usr Dat 4=US-2016-0233A-PA
+(numeric) Usr Dat 4=US-2015-1247A-PA     	--> 60 (numeric) Usr Dat 4=US-2015-1247A-PA
+(numeric) Usr Dat 4=US-2016-0233B-IC     	--> 86 (numeric) Usr Dat 4=US-2016-0233B-IC
+(numeric) Usr Dat 4=US-2016-0183A-PA     	--> 77 (numeric) Usr Dat 4=US-2016-0183A-PA
+(numeric) Usr Dat 4=US-2016-0183J-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1420F-IC     	--> 81 (numeric) Usr Dat 4=US-2015-1420F-IC
+(numeric) Usr Dat 4=US-2016-0273E-PA     	--> 69 (numeric) Usr Dat 4=US-2016-0273E-PA
+(numeric) Usr Dat 4=US-2016-0181A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0510B-PA     	--> 102 (numeric) Usr Dat 4=US-2015-0510B-PA
+(numeric) Usr Dat 4=US-2016-0403B-PA_01  	--> 66 (numeric) Usr Dat 4=US-2016-0403B-PA_01
+(numeric) Usr Dat 4=US-2015-0586H-IC_04  	--> 23 (numeric) Usr Dat 4=US-2015-0586H-IC_04
+(numeric) Usr Dat 4=US-2015-0586H-IC_03  	--> 21 (numeric) Usr Dat 4=US-2015-0586H-IC_03
+(numeric) Usr Dat 4=US-2016-0183F-PA     	--> 75 (numeric) Usr Dat 4=US-2016-0183F-PA
+(numeric) Usr Dat 4=US-2015-1459A-PA     	--> 56 (numeric) Usr Dat 4=US-2015-1459A-PA
+(numeric) Usr Dat 4=US-2016-0129B-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-1187C-IC     	--> 73 (numeric) Usr Dat 4=US-2015-1187C-IC
+(numeric) Usr Dat 4=US-2015-1053A-PA     	--> 49 (numeric) Usr Dat 4=US-2015-1053A-PA
+(numeric) Usr Dat 4=US-2016-0665A-PA     	--> 37 (numeric) Usr Dat 4=US-2016-0665A-PA
+(numeric) Usr Dat 4=US-2016-0676A-PA     	--> 91 (numeric) Usr Dat 4=US-2016-0676A-PA
+(numeric) Usr Dat 4=US-2016-0675A-PA     	--> 84 (numeric) Usr Dat 4=US-2016-0675A-PA
+(numeric) Usr Dat 4=US-2016-0654A-PA     	--> 34 (numeric) Usr Dat 4=US-2016-0654A-PA
+(numeric) Usr Dat 4=US-2016-0365G-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0656A-PA     	--> 70 (numeric) Usr Dat 4=US-2016-0656A-PA
+(numeric) Usr Dat 4=US-2015-0335A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2014-1131E-IC_03  	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0451A-PA_2   	--> - missing (no match)
+(numeric) Usr Dat 4=US-2014-1131E-IC_02  	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0586F-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2016-0242A-PA     	--> - missing (no match)
+(numeric) Usr Dat 4=US-2015-0458C-PA     	--> - missing (no match)
+(numeric) Cryptogram Valid               	--> 104 (numeric) Cryptogram Valid
+(numeric) Diffzip3=Same                  	--> 105 (numeric) Diffzip3=Same
+(numeric) Travel_Ent_SIC                 	--> 106 (numeric) Travel_Ent_SIC
+(numeric) SIC1                           	--> 107 (numeric) SIC1
+(numeric) SIC2                           	--> 108 (numeric) SIC2
+(numeric) Metro                          	--> 109 (numeric) Metro
+(numeric) VAA Strat                      	--> 110 (numeric) VAA Strat
+(numeric) Falcon Score Strat             	--> 111 (numeric) Falcon Score Strat
+(numeric) PAD Strat                      	--> 112 (numeric) PAD Strat
+
+
+Time taken to build model: 82.65 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 14.67 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       29267               99.227  %
+Incorrectly Classified Instances       228                0.773  %
+Kappa statistic                          0.0075
+Mean absolute error                      0.0077
+Root mean squared error                  0.0879
+Relative absolute error                 90.5525 %
+Root relative squared error            333.1572 %
+Total Number of Instances            29495     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.053    0.007    0.005      0.053    0.009      0.014    0.523     0.001     Fraud
+                 0.993    0.947    0.999      0.993    0.996      0.014    0.523     0.999     Valid
+Weighted Avg.    0.992    0.947    0.999      0.992    0.995      0.014    0.523     0.999     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+     1    18 |     a = Fraud
+   210 29266 |     b = Valid
+

@@ -1,0 +1,1039 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes -K
+Relation:     Test_Data_August_all-weka.filters.unsupervised.attribute.Remove-R1,5,10-11-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.supervised.attribute.NominalToBinary
+Instances:    1241063
+Attributes:   84
+              Trn Typ=M
+              Trn Typ=A
+              Trn Typ=P
+              Trn Typ=C
+              Trn Typ=I
+              Trn Typ=V
+              Trn Typ=O
+              Dollar Strat=b1. $ 1-25
+              Dollar Strat=a. < $ 1
+              Dollar Strat=b2. $ 26-50
+              Dollar Strat=b3. $ 51-100
+              Dollar Strat=b4. $ 101-200
+              Dollar Strat=c1. $ 201-250
+              Dollar Strat=g. $ 901-1000
+              Dollar Strat=c3. $ 351-500
+              Dollar Strat=c2. $ 251-350
+              Dollar Strat=d2. $ 601-700
+              Dollar Strat=h. $ 1001-2000
+              Dollar Strat=d1. $ 501-600
+              Dollar Strat=i. $ 2001-5000
+              Dollar Strat=e. $ 701-800
+              Dollar Strat=f. $ 801-900
+              Dollar Strat=i. $ 5001-10000
+              Dollar Strat=j. over $ 10000
+              Transaction Tag
+              Trn Cvv Vrfy Cd=V
+              Trn Cvv Vrfy Cd=0
+              Trn Cvv Vrfy Cd=I
+              Trn Pos Ent Cd=V
+              Trn Pos Ent Cd=K
+              Trn Pos Ent Cd=E
+              Trn Pos Ent Cd=U
+              Trn Pos Ent Cd=C
+              Trn Pos Ent Cd=D
+              Trn Pos Ent Cd=S
+              Trn Pos Ent Cd=T
+              Sic Cd
+              Mer Cnty Cd
+              Diffzip3=DiffZip3
+              Travel_Ent_SIC
+              SIC1
+              SIC2
+              Metro
+              VAA Strat=c. 11-20
+              VAA Strat=d. 21-30
+              VAA Strat=e. 31-40
+              VAA Strat=b. 1-10
+              VAA Strat=g. 51-60
+              VAA Strat=f. 41-50
+              VAA Strat=h. 61-70
+              VAA Strat=i. 71-80
+              VAA Strat=j. 81-90
+              VAA Strat=a. 0-null
+              VAA Strat=k. 91-99
+              Falcon Score Strat=c. 101-200
+              Falcon Score Strat=a. 0
+              Falcon Score Strat=b. 1-100
+              Falcon Score Strat=f. 401-500
+              Falcon Score Strat=d. 201-300
+              Falcon Score Strat=g. 501-600
+              Falcon Score Strat=h. 601-700
+              Falcon Score Strat=o. 951-975
+              Falcon Score Strat=m. 926-950
+              Falcon Score Strat=e. 301-400
+              Falcon Score Strat=i. 701-800
+              Falcon Score Strat=j. 801-850
+              Falcon Score Strat=l. 901-925
+              Falcon Score Strat=p. 976-999
+              Falcon Score Strat=k. 851-900
+              PAD Strat=c. 101-200
+              PAD Strat=f. 401-500
+              PAD Strat=a. 0
+              PAD Strat=b. 1-100
+              PAD Strat=d. 201-300
+              PAD Strat=e. 301-400
+              PAD Strat=h. 601-700
+              PAD Strat=o. 951-975
+              PAD Strat=m. 926-950
+              PAD Strat=g. 501-600
+              PAD Strat=l. 901-925
+              PAD Strat=j. 801-850
+              PAD Strat=i. 701-800
+              PAD Strat=k. 851-900
+              PAD Strat=p. 976-999
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                             Class
+Attribute                                    Valid              Fraud
+                                               (1)                (0)
+======================================================================
+Trn Typ=M
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (146255)            0 (113)
+  K2: mean (weight)                     1 (1093497)           1 (1198)
+
+Trn Typ=A
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1201695)           0 (1262)
+  K2: mean (weight)                       1 (38057)             1 (49)
+
+Trn Typ=P
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1139110)           0 (1251)
+  K2: mean (weight)                      1 (100642)             1 (60)
+
+Trn Typ=C
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1234116)           0 (1308)
+  K2: mean (weight)                        1 (5636)              1 (3)
+
+Trn Typ=I
+  [# kernels]                                     2                  1
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238820)           0 (1311)
+  K2: mean (weight)                         1 (932)                 --
+
+Trn Typ=V
+  [# kernels]                                     2                  1
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239728)           0 (1311)
+  K2: mean (weight)                          1 (24)                 --
+
+Trn Typ=O
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238788)           0 (1310)
+  K2: mean (weight)                         1 (964)              1 (1)
+
+Dollar Strat=b1. $ 1-25
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (562756)            0 (876)
+  K2: mean (weight)                      1 (676996)            1 (435)
+
+Dollar Strat=a. < $ 1
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1186639)           0 (1203)
+  K2: mean (weight)                       1 (53113)            1 (108)
+
+Dollar Strat=b2. $ 26-50
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1024138)           0 (1170)
+  K2: mean (weight)                      1 (215614)            1 (141)
+
+Dollar Strat=b3. $ 51-100
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1090902)           0 (1155)
+  K2: mean (weight)                      1 (148850)            1 (156)
+
+Dollar Strat=b4. $ 101-200
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1153973)           0 (1178)
+  K2: mean (weight)                       1 (85779)            1 (133)
+
+Dollar Strat=c1. $ 201-250
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1224426)           0 (1253)
+  K2: mean (weight)                       1 (15326)             1 (58)
+
+Dollar Strat=g. $ 901-1000
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238486)           0 (1294)
+  K2: mean (weight)                        1 (1266)             1 (17)
+
+Dollar Strat=c3. $ 351-500
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1228350)           0 (1241)
+  K2: mean (weight)                       1 (11402)             1 (70)
+
+Dollar Strat=c2. $ 251-350
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1223892)           0 (1260)
+  K2: mean (weight)                       1 (15860)             1 (51)
+
+Dollar Strat=d2. $ 601-700
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1237394)           0 (1291)
+  K2: mean (weight)                        1 (2358)             1 (20)
+
+Dollar Strat=h. $ 1001-2000
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1235629)           0 (1279)
+  K2: mean (weight)                        1 (4123)             1 (32)
+
+Dollar Strat=d1. $ 501-600
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1235938)           0 (1265)
+  K2: mean (weight)                        1 (3814)             1 (46)
+
+Dollar Strat=i. $ 2001-5000
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1237919)           0 (1292)
+  K2: mean (weight)                        1 (1833)             1 (19)
+
+Dollar Strat=e. $ 701-800
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238011)           0 (1298)
+  K2: mean (weight)                        1 (1741)             1 (13)
+
+Dollar Strat=f. $ 801-900
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238466)           0 (1300)
+  K2: mean (weight)                        1 (1286)             1 (11)
+
+Dollar Strat=i. $ 5001-10000
+  [# kernels]                                     2                  1
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239430)           0 (1311)
+  K2: mean (weight)                         1 (322)                 --
+
+Dollar Strat=j. over $ 10000
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239683)           0 (1310)
+  K2: mean (weight)                          1 (69)              1 (1)
+
+Trn Cvv Vrfy Cd=V
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (282186)            0 (390)
+  K2: mean (weight)                      1 (957566)            1 (921)
+
+Trn Cvv Vrfy Cd=0
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (961826)            0 (937)
+  K2: mean (weight)                      1 (277926)            1 (374)
+
+Trn Cvv Vrfy Cd=I
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1235492)           0 (1295)
+  K2: mean (weight)                        1 (4260)             1 (16)
+
+Trn Pos Ent Cd=V
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1051147)           0 (1306)
+  K2: mean (weight)                      1 (187906)              1 (4)
+
+Trn Pos Ent Cd=K
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1071904)           0 (1006)
+  K2: mean (weight)                      1 (167149)            1 (304)
+
+Trn Pos Ent Cd=E
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1019982)            0 (792)
+  K2: mean (weight)                      1 (219071)            1 (518)
+
+Trn Pos Ent Cd=U
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (575096)            0 (827)
+  K2: mean (weight)                      1 (663957)            1 (483)
+
+Trn Pos Ent Cd=C
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238351)           0 (1309)
+  K2: mean (weight)                         1 (702)              1 (1)
+
+Trn Pos Ent Cd=D
+  [# kernels]                                     2                  1
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238820)           0 (1310)
+  K2: mean (weight)                         1 (233)                 --
+
+Trn Pos Ent Cd=S
+  [# kernels]                                     2                  1
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239021)           0 (1310)
+  K2: mean (weight)                          1 (32)                 --
+
+Trn Pos Ent Cd=T
+  [# kernels]                                     2                  1
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239050)           0 (1310)
+  K2: mean (weight)                           1 (3)                 --
+
+Sic Cd
+  [# kernels]                                   156                 66
+  [std. dev]                                 8.7135           207.0053
+  [precision]                               19.8811            19.8811
+  K1: mean (weight)                           0 (2)     1510.9672 (14)
+  K2: mean (weight)                     19.8811 (1)       1749.541 (1)
+  K3: mean (weight)                 735.6025 (4985)     3002.0533 (17)
+  K4: mean (weight)                  755.4836 (102)      3041.8156 (1)
+  K5: mean (weight)                  775.3648 (703)      3697.8934 (1)
+  K6: mean (weight)                 1510.9672 (243)     4115.3975 (59)
+  K7: mean (weight)                 1709.7787 (804)      4214.8033 (3)
+  K8: mean (weight)                  1729.6598 (73)      4513.0205 (5)
+  K9: mean (weight)                   1749.541 (32)      4731.7131 (9)
+  K10: mean (weight)                 1769.4221 (67)     4811.2377 (57)
+  K11: mean (weight)                1789.3033 (298)      4831.1189 (7)
+  K12: mean (weight)                2743.5984 (685)     4890.7623 (15)
+  K13: mean (weight)                  2783.3607 (1)      5010.0492 (1)
+  K14: mean (weight)                 2843.0041 (28)     5049.8115 (10)
+  K15: mean (weight)               3002.0533 (2340)      5109.4549 (2)
+  K16: mean (weight)                 3021.9344 (23)      5129.3361 (1)
+  K17: mean (weight)                 3041.8156 (56)      5188.9795 (1)
+  K18: mean (weight)               3061.6967 (2898)     5208.8607 (17)
+  K19: mean (weight)                 3081.5779 (15)       5248.623 (2)
+  K20: mean (weight)                   3101.459 (6)     5308.2664 (67)
+  K21: mean (weight)                  3121.3402 (1)     5328.1475 (18)
+  K22: mean (weight)                3141.2213 (344)    5407.6721 (111)
+  K23: mean (weight)                  3161.1025 (1)     5507.0779 (20)
+  K24: mean (weight)                3180.9836 (652)       5526.959 (4)
+  K25: mean (weight)                  3200.8648 (7)    5546.8402 (125)
+  K26: mean (weight)                 3220.7459 (46)      5606.4836 (6)
+  K27: mean (weight)                  3240.627 (21)     5626.3648 (16)
+  K28: mean (weight)                3260.5082 (765)     5646.2459 (18)
+  K29: mean (weight)                  3300.2705 (2)      5666.127 (20)
+  K30: mean (weight)               3359.9139 (1088)     5686.0082 (15)
+  K31: mean (weight)                3379.7951 (724)      5705.8893 (2)
+  K32: mean (weight)               3399.6762 (2169)     5725.7705 (93)
+  K33: mean (weight)                 3439.4385 (93)    5805.2951 (156)
+  K34: mean (weight)                3499.082 (2518)     5825.1762 (19)
+  K35: mean (weight)                3518.9631 (769)     5904.7008 (12)
+  K36: mean (weight)                3538.8443 (153)       5924.582 (7)
+  K37: mean (weight)                3558.7254 (453)     5944.4631 (23)
+  K38: mean (weight)                 3578.6066 (10)    5964.3443 (102)
+  K39: mean (weight)                3598.4877 (327)      5984.2254 (9)
+  K40: mean (weight)                3618.3689 (291)     6004.1066 (54)
+  K41: mean (weight)                  3638.25 (629)     7018.0451 (17)
+  K42: mean (weight)               3658.1311 (1024)      7037.9262 (1)
+  K43: mean (weight)                 3678.0123 (55)      7216.8566 (2)
+  K44: mean (weight)                3697.8934 (947)      7236.7377 (1)
+  K45: mean (weight)                3717.7746 (627)        7276.5 (33)
+  K46: mean (weight)                 3737.6557 (84)      7296.3811 (8)
+  K47: mean (weight)                3757.5369 (180)     7316.2623 (24)
+  K48: mean (weight)                 3777.418 (931)      7336.1434 (7)
+  K49: mean (weight)                 3797.2992 (38)      7375.9057 (2)
+  K50: mean (weight)                3817.1803 (169)     7395.7869 (14)
+  K51: mean (weight)                3837.0615 (163)      7515.0738 (3)
+  K52: mean (weight)                  4015.9918 (1)      7534.9549 (9)
+  K53: mean (weight)               4115.3975 (9006)      7833.1721 (9)
+  K54: mean (weight)                4135.2787 (132)      7912.6967 (2)
+  K55: mean (weight)                4214.8033 (768)      7932.5779 (1)
+  K56: mean (weight)               4234.6844 (1056)     7992.2213 (29)
+  K57: mean (weight)               4413.6148 (2144)      8012.1025 (2)
+  K58: mean (weight)                 4453.377 (118)      8051.8648 (1)
+  K59: mean (weight)                4473.2582 (675)      8071.7459 (5)
+  K60: mean (weight)                  4493.1393 (1)       8091.627 (1)
+  K61: mean (weight)                4513.0205 (189)      8210.9139 (1)
+  K62: mean (weight)                 4572.6639 (11)      8290.4385 (1)
+  K63: mean (weight)               4731.7131 (4667)      8389.8443 (3)
+  K64: mean (weight)              4791.3566 (10025)      8648.2992 (4)
+  K65: mean (weight)              4811.2377 (27171)      8707.9426 (6)
+  K66: mean (weight)               4831.1189 (1320)      9006.1598 (5)
+  K67: mean (weight)              4890.7623 (24836)                 --
+  K68: mean (weight)                5010.0492 (155)                 --
+  K69: mean (weight)                5029.9303 (307)                 --
+  K70: mean (weight)               5049.8115 (1870)                 --
+  K71: mean (weight)               5069.6926 (1087)                 --
+  K72: mean (weight)               5089.5738 (1512)                 --
+  K73: mean (weight)                5109.4549 (808)                 --
+  K74: mean (weight)                5129.3361 (562)                 --
+  K75: mean (weight)                5169.0984 (211)                 --
+  K76: mean (weight)               5188.9795 (2435)                 --
+  K77: mean (weight)              5208.8607 (23083)                 --
+  K78: mean (weight)                5228.7418 (436)                 --
+  K79: mean (weight)                5248.623 (4625)                 --
+  K80: mean (weight)                5268.5041 (824)                 --
+  K81: mean (weight)              5308.2664 (38977)                 --
+  K82: mean (weight)              5328.1475 (14156)                 --
+  K83: mean (weight)             5407.6721 (175143)                 --
+  K84: mean (weight)                5427.5533 (466)                 --
+  K85: mean (weight)                5447.4344 (689)                 --
+  K86: mean (weight)               5467.3156 (1168)                 --
+  K87: mean (weight)              5507.0779 (16904)                 --
+  K88: mean (weight)                5526.959 (9484)                 --
+  K89: mean (weight)             5546.8402 (160785)                 --
+  K90: mean (weight)                5566.7213 (639)                 --
+  K91: mean (weight)                 5586.6025 (20)                 --
+  K92: mean (weight)               5606.4836 (2588)                 --
+  K93: mean (weight)               5626.3648 (7199)                 --
+  K94: mean (weight)              5646.2459 (12782)                 --
+  K95: mean (weight)                5666.127 (5149)                 --
+  K96: mean (weight)               5686.0082 (5048)                 --
+  K97: mean (weight)               5705.8893 (7485)                 --
+  K98: mean (weight)              5725.7705 (39831)                 --
+  K99: mean (weight)             5805.2951 (238741)                 --
+  K100: mean (weight)              5825.1762 (4560)                 --
+  K101: mean (weight)             5904.7008 (32428)                 --
+  K102: mean (weight)               5924.582 (9562)                 --
+  K103: mean (weight)             5944.4631 (66039)                 --
+  K104: mean (weight)             5964.3443 (37392)                 --
+  K105: mean (weight)              5984.2254 (6819)                 --
+  K106: mean (weight)             6004.1066 (37648)                 --
+  K107: mean (weight)               6043.8689 (381)                 --
+  K108: mean (weight)                 6202.918 (12)                 --
+  K109: mean (weight)              6302.3238 (9516)                 --
+  K110: mean (weight)               6521.0164 (848)                 --
+  K111: mean (weight)              7018.0451 (4882)                 --
+  K112: mean (weight)               7037.9262 (987)                 --
+  K113: mean (weight)              7216.8566 (2369)                 --
+  K114: mean (weight)              7236.7377 (9551)                 --
+  K115: mean (weight)               7256.6189 (257)                 --
+  K116: mean (weight)                 7276.5 (1073)                 --
+  K117: mean (weight)              7296.3811 (7616)                 --
+  K118: mean (weight)              7316.2623 (2580)                 --
+  K119: mean (weight)              7336.1434 (1846)                 --
+  K120: mean (weight)               7356.0246 (238)                 --
+  K121: mean (weight)              7375.9057 (1464)                 --
+  K122: mean (weight)              7395.7869 (7584)                 --
+  K123: mean (weight)              7515.0738 (5770)                 --
+  K124: mean (weight)              7534.9549 (6647)                 --
+  K125: mean (weight)               7554.8361 (166)                 --
+  K126: mean (weight)               7614.4795 (201)                 --
+  K127: mean (weight)               7634.3607 (172)                 --
+  K128: mean (weight)               7694.0041 (328)                 --
+  K129: mean (weight)                7793.4098 (63)                 --
+  K130: mean (weight)             7833.1721 (11774)                 --
+  K131: mean (weight)              7912.6967 (2500)                 --
+  K132: mean (weight)              7932.5779 (1193)                 --
+  K133: mean (weight)             7992.2213 (16858)                 --
+  K134: mean (weight)             8012.1025 (12813)                 --
+  K135: mean (weight)              8031.9836 (1315)                 --
+  K136: mean (weight)              8051.8648 (2535)                 --
+  K137: mean (weight)              8071.7459 (2033)                 --
+  K138: mean (weight)               8091.627 (6382)                 --
+  K139: mean (weight)               8111.5082 (665)                 --
+  K140: mean (weight)              8210.9139 (4554)                 --
+  K141: mean (weight)               8250.6762 (140)                 --
+  K142: mean (weight)              8290.4385 (3401)                 --
+  K143: mean (weight)                8350.082 (576)                 --
+  K144: mean (weight)              8389.8443 (6810)                 --
+  K145: mean (weight)              8648.2992 (1815)                 --
+  K146: mean (weight)              8668.1803 (1841)                 --
+  K147: mean (weight)              8707.9426 (1732)                 --
+  K148: mean (weight)                8727.8238 (17)                 --
+  K149: mean (weight)                8906.7541 (17)                 --
+  K150: mean (weight)               8926.6352 (301)                 --
+  K151: mean (weight)              9006.1598 (2955)                 --
+  K152: mean (weight)               9204.9713 (331)                 --
+  K153: mean (weight)               9224.8525 (169)                 --
+  K154: mean (weight)                9304.377 (194)                 --
+  K155: mean (weight)             9403.7828 (11895)                 --
+  K156: mean (weight)                      9702 (3)                 --
+
+Mer Cnty Cd
+  [# kernels]                                    85                 27
+  [std. dev]                                 1.1247            21.6767
+  [precision]                                 6.748              6.748
+  K1: mean (weight)                     26.9919 (4)        53.9837 (1)
+  K2: mean (weight)                   33.7398 (162)        60.7317 (1)
+  K3: mean (weight)                    40.4878 (22)        74.2276 (6)
+  K4: mean (weight)                   47.2358 (116)       121.4634 (2)
+  K5: mean (weight)                    53.9837 (34)       155.2033 (4)
+  K6: mean (weight)                    60.7317 (24)       168.6992 (3)
+  K7: mean (weight)                     67.4797 (4)       195.6911 (3)
+  K8: mean (weight)                   74.2276 (195)       249.6748 (9)
+  K9: mean (weight)                     80.9756 (7)       269.9187 (2)
+  K10: mean (weight)                    94.4715 (7)       276.6667 (4)
+  K11: mean (weight)                 121.4634 (274)       296.9106 (1)
+  K12: mean (weight)                  134.9593 (39)       357.6423 (1)
+  K13: mean (weight)                  141.7073 (11)       371.1382 (6)
+  K14: mean (weight)                 155.2033 (273)       377.8862 (1)
+  K15: mean (weight)                 168.6992 (190)       472.3577 (4)
+  K16: mean (weight)                 188.9431 (215)       479.1057 (3)
+  K17: mean (weight)                 195.6911 (231)       485.8537 (1)
+  K18: mean (weight)                   202.439 (19)       512.8455 (5)
+  K19: mean (weight)                   209.187 (57)      526.3415 (19)
+  K20: mean (weight)                  215.935 (109)       566.8293 (1)
+  K21: mean (weight)                  222.6829 (14)       607.3171 (4)
+  K22: mean (weight)                  236.1789 (18)       701.7886 (1)
+  K23: mean (weight)                  242.9268 (15)       722.0325 (3)
+  K24: mean (weight)                 249.6748 (246)       749.0244 (2)
+  K25: mean (weight)                  256.4228 (13)       762.5203 (1)
+  K26: mean (weight)                  269.9187 (17)       823.252 (24)
+  K27: mean (weight)                 276.6667 (219)     836.748 (1192)
+  K28: mean (weight)                   290.1626 (7)                 --
+  K29: mean (weight)                  296.9106 (40)                 --
+  K30: mean (weight)                   310.4065 (4)                 --
+  K31: mean (weight)                  317.1545 (37)                 --
+  K32: mean (weight)                  330.6504 (67)                 --
+  K33: mean (weight)                  337.3984 (29)                 --
+  K34: mean (weight)                 344.1463 (178)                 --
+  K35: mean (weight)                 350.8943 (165)                 --
+  K36: mean (weight)                  357.6423 (77)                 --
+  K37: mean (weight)                 371.1382 (427)                 --
+  K38: mean (weight)                 377.8862 (287)                 --
+  K39: mean (weight)                  384.6341 (82)                 --
+  K40: mean (weight)                  391.3821 (75)                 --
+  K41: mean (weight)                    404.878 (1)                 --
+  K42: mean (weight)                   411.626 (52)                 --
+  K43: mean (weight)                    418.374 (4)                 --
+  K44: mean (weight)                   425.122 (11)                 --
+  K45: mean (weight)                 445.3659 (643)                 --
+  K46: mean (weight)                   458.8618 (5)                 --
+  K47: mean (weight)                 472.3577 (170)                 --
+  K48: mean (weight)                  479.1057 (74)                 --
+  K49: mean (weight)                 485.8537 (279)                 --
+  K50: mean (weight)                   492.6016 (4)                 --
+  K51: mean (weight)                   499.3496 (8)                 --
+  K52: mean (weight)                  506.0976 (18)                 --
+  K53: mean (weight)                   512.8455 (2)                 --
+  K54: mean (weight)                 526.3415 (410)                 --
+  K55: mean (weight)                  533.0894 (53)                 --
+  K56: mean (weight)                  553.3333 (21)                 --
+  K57: mean (weight)                   560.0813 (7)                 --
+  K58: mean (weight)                   566.8293 (2)                 --
+  K59: mean (weight)                  580.3252 (55)                 --
+  K60: mean (weight)                  593.8211 (95)                 --
+  K61: mean (weight)                 607.3171 (179)                 --
+  K62: mean (weight)                   614.065 (55)                 --
+  K63: mean (weight)                   620.813 (14)                 --
+  K64: mean (weight)                  627.561 (656)                 --
+  K65: mean (weight)                   634.3089 (5)                 --
+  K66: mean (weight)                  641.0569 (14)                 --
+  K67: mean (weight)                   647.8049 (4)                 --
+  K68: mean (weight)                  661.3008 (19)                 --
+  K69: mean (weight)                   681.5447 (3)                 --
+  K70: mean (weight)                  688.2927 (13)                 --
+  K71: mean (weight)                  701.7886 (33)                 --
+  K72: mean (weight)                 708.5366 (104)                 --
+  K73: mean (weight)                 722.0325 (247)                 --
+  K74: mean (weight)                  749.0244 (67)                 --
+  K75: mean (weight)                 755.7724 (124)                 --
+  K76: mean (weight)                  762.5203 (26)                 --
+  K77: mean (weight)                  782.7642 (20)                 --
+  K78: mean (weight)                  789.5122 (34)                 --
+  K79: mean (weight)                  796.2602 (12)                 --
+  K80: mean (weight)                  803.0081 (15)                 --
+  K81: mean (weight)                  816.5041 (22)                 --
+  K82: mean (weight)                 823.252 (1985)                 --
+  K83: mean (weight)              836.748 (1225061)                 --
+  K84: mean (weight)                 850.2439 (125)                 --
+  K85: mean (weight)                   856.9919 (4)                 --
+
+Diffzip3=DiffZip3
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (645837)             0 (50)
+  K2: mean (weight)                      1 (593915)           1 (1261)
+
+Travel_Ent_SIC
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (264988)            0 (196)
+  K2: mean (weight)                      1 (974764)           1 (1115)
+
+SIC1
+  [# kernels]                                    10                  7
+  [std. dev]                                 0.1667             0.1933
+  [precision]                                     1                  1
+  K1: mean (weight)                        0 (5793)             1 (15)
+  K2: mean (weight)                        1 (1517)             3 (19)
+  K3: mean (weight)                         2 (714)            4 (155)
+  K4: mean (weight)                       3 (20619)            5 (925)
+  K5: mean (weight)                       4 (82120)              6 (6)
+  K6: mean (weight)                      5 (962095)            7 (162)
+  K7: mean (weight)                       6 (18279)             8 (29)
+  K8: mean (weight)                       7 (86119)                 --
+  K9: mean (weight)                       8 (49902)                 --
+  K10: mean (weight)                      9 (12592)                 --
+
+SIC2
+  [# kernels]                                    38                 24
+  [std. dev]                                 0.2994             2.0837
+  [precision]                                1.7963             1.7963
+  K1: mean (weight)                           0 (3)       14.3704 (14)
+  K2: mean (weight)                   7.1852 (5790)        16.1667 (1)
+  K3: mean (weight)                   14.3704 (243)        30.537 (18)
+  K4: mean (weight)                  16.1667 (1274)        35.9259 (1)
+  K5: mean (weight)                   26.9444 (686)       41.3148 (62)
+  K6: mean (weight)                    28.7407 (28)        44.9074 (5)
+  K7: mean (weight)                   30.537 (6343)        46.7037 (9)
+  K8: mean (weight)                  32.3333 (3065)          48.5 (79)
+  K9: mean (weight)                  34.1296 (5837)       50.2963 (15)
+  K10: mean (weight)                 35.9259 (2947)       52.0926 (19)
+  K11: mean (weight)                 37.7222 (2427)      53.8889 (212)
+  K12: mean (weight)                    39.5185 (1)      55.6852 (209)
+  K13: mean (weight)                41.3148 (10962)      57.4815 (269)
+  K14: mean (weight)                 43.1111 (2938)      59.2778 (207)
+  K15: mean (weight)                  44.9074 (200)       70.0556 (18)
+  K16: mean (weight)                46.7037 (14692)       71.8519 (44)
+  K17: mean (weight)                   48.5 (53327)       73.6481 (47)
+  K18: mean (weight)                 50.2963 (9604)       75.4444 (12)
+  K19: mean (weight)                52.0926 (28311)        77.2407 (9)
+  K20: mean (weight)               53.8889 (244467)        79.037 (32)
+  K21: mean (weight)               55.6852 (211511)        80.8333 (9)
+  K22: mean (weight)               57.4815 (285836)        82.6296 (5)
+  K23: mean (weight)               59.2778 (190269)       86.2222 (10)
+  K24: mean (weight)                 62.8704 (9528)        89.8148 (5)
+  K25: mean (weight)                  64.6667 (848)                 --
+  K26: mean (weight)                 70.0556 (5869)                 --
+  K27: mean (weight)                71.8519 (20866)                 --
+  K28: mean (weight)                73.6481 (13712)                 --
+  K29: mean (weight)                75.4444 (13284)                 --
+  K30: mean (weight)                77.2407 (11837)                 --
+  K31: mean (weight)                 79.037 (20551)                 --
+  K32: mean (weight)                80.8333 (25743)                 --
+  K33: mean (weight)                82.6296 (15481)                 --
+  K34: mean (weight)                 86.2222 (5405)                 --
+  K35: mean (weight)                 89.8148 (3273)                 --
+  K36: mean (weight)                  91.6111 (500)                 --
+  K37: mean (weight)                93.4074 (12089)                 --
+  K38: mean (weight)                         97 (3)                 --
+
+Metro
+  [# kernels]                                    50                 42
+  [std. dev]                                 0.1667             1.3533
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (494185)            0 (347)
+  K2: mean (weight)                       1 (24044)             1 (69)
+  K3: mean (weight)                       2 (18632)             2 (54)
+  K4: mean (weight)                       3 (14136)             3 (42)
+  K5: mean (weight)                        4 (8231)             4 (34)
+  K6: mean (weight)                        5 (2411)              5 (3)
+  K7: mean (weight)                        6 (7906)             6 (21)
+  K8: mean (weight)                        7 (4444)              7 (5)
+  K9: mean (weight)                       8 (32861)             8 (61)
+  K10: mean (weight)                      9 (13338)             9 (20)
+  K11: mean (weight)                      10 (6081)             10 (7)
+  K12: mean (weight)                     11 (26918)           11 (132)
+  K13: mean (weight)                       12 (419)             12 (9)
+  K14: mean (weight)                      13 (3456)            13 (10)
+  K15: mean (weight)                      14 (3304)            14 (20)
+  K16: mean (weight)                     15 (62404)            15 (42)
+  K17: mean (weight)                      16 (4447)             16 (8)
+  K18: mean (weight)                      17 (2365)            17 (16)
+  K19: mean (weight)                    18 (378046)           18 (193)
+  K20: mean (weight)                      19 (1951)            19 (10)
+  K21: mean (weight)                      20 (1457)             20 (2)
+  K22: mean (weight)                      21 (4943)             21 (3)
+  K23: mean (weight)                      22 (1192)             22 (3)
+  K24: mean (weight)                      23 (2580)             23 (8)
+  K25: mean (weight)                      24 (1377)             25 (3)
+  K26: mean (weight)                      25 (2766)            26 (74)
+  K27: mean (weight)                     26 (27106)            27 (10)
+  K28: mean (weight)                      27 (2005)             29 (6)
+  K29: mean (weight)                      28 (1928)            30 (13)
+  K30: mean (weight)                      29 (3414)            31 (30)
+  K31: mean (weight)                      30 (3366)             32 (6)
+  K32: mean (weight)                     31 (43193)             33 (1)
+  K33: mean (weight)                      32 (1989)             34 (3)
+  K34: mean (weight)                      33 (3013)            35 (10)
+  K35: mean (weight)                      34 (1798)             36 (1)
+  K36: mean (weight)                      35 (2254)            39 (12)
+  K37: mean (weight)                      36 (3089)             40 (3)
+  K38: mean (weight)                       37 (926)             43 (2)
+  K39: mean (weight)                       38 (332)             45 (2)
+  K40: mean (weight)                      39 (6425)            46 (11)
+  K41: mean (weight)                      40 (1979)             47 (4)
+  K42: mean (weight)                      41 (1014)             49 (1)
+  K43: mean (weight)                      42 (1132)                 --
+  K44: mean (weight)                      43 (2251)                 --
+  K45: mean (weight)                      44 (1122)                 --
+  K46: mean (weight)                      45 (1087)                 --
+  K47: mean (weight)                      46 (1407)                 --
+  K48: mean (weight)                      47 (3002)                 --
+  K49: mean (weight)                       48 (608)                 --
+  K50: mean (weight)                      49 (1418)                 --
+
+VAA Strat=c. 11-20
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (679089)           0 (1249)
+  K2: mean (weight)                      1 (560663)             1 (62)
+
+VAA Strat=d. 21-30
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (993154)           0 (1077)
+  K2: mean (weight)                      1 (246598)            1 (234)
+
+VAA Strat=e. 31-40
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1183355)            0 (874)
+  K2: mean (weight)                       1 (56397)            1 (437)
+
+VAA Strat=b. 1-10
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (873405)           0 (1300)
+  K2: mean (weight)                      1 (366347)             1 (11)
+
+VAA Strat=g. 51-60
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1237501)           0 (1206)
+  K2: mean (weight)                        1 (2251)            1 (105)
+
+VAA Strat=f. 41-50
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1234800)           0 (1175)
+  K2: mean (weight)                        1 (4952)            1 (136)
+
+VAA Strat=h. 61-70
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238538)           0 (1218)
+  K2: mean (weight)                        1 (1214)             1 (93)
+
+VAA Strat=i. 71-80
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239002)           0 (1211)
+  K2: mean (weight)                         1 (750)            1 (100)
+
+VAA Strat=j. 81-90
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239430)           0 (1235)
+  K2: mean (weight)                         1 (322)             1 (76)
+
+VAA Strat=a. 0-null
+  [# kernels]                                     2                  1
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239577)           0 (1311)
+  K2: mean (weight)                         1 (175)                 --
+
+VAA Strat=k. 91-99
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1239669)           0 (1254)
+  K2: mean (weight)                          1 (83)             1 (57)
+
+Falcon Score Strat=c. 101-200
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (946616)           0 (1270)
+  K2: mean (weight)                      1 (293136)             1 (41)
+
+Falcon Score Strat=a. 0
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1194054)           0 (1225)
+  K2: mean (weight)                       1 (45698)             1 (86)
+
+Falcon Score Strat=b. 1-100
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (585829)           0 (1293)
+  K2: mean (weight)                      1 (653923)             1 (18)
+
+Falcon Score Strat=f. 401-500
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1209736)           0 (1264)
+  K2: mean (weight)                       1 (30016)             1 (47)
+
+Falcon Score Strat=d. 201-300
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1125778)           0 (1261)
+  K2: mean (weight)                      1 (113974)             1 (50)
+
+Falcon Score Strat=g. 501-600
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1221958)           0 (1258)
+  K2: mean (weight)                       1 (17794)             1 (53)
+
+Falcon Score Strat=h. 601-700
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1228124)           0 (1250)
+  K2: mean (weight)                       1 (11628)             1 (61)
+
+Falcon Score Strat=o. 951-975
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238796)           0 (1165)
+  K2: mean (weight)                         1 (956)            1 (146)
+
+Falcon Score Strat=m. 926-950
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238638)           0 (1233)
+  K2: mean (weight)                        1 (1114)             1 (78)
+
+Falcon Score Strat=e. 301-400
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1184387)           0 (1265)
+  K2: mean (weight)                       1 (55365)             1 (46)
+
+Falcon Score Strat=i. 701-800
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1231544)           0 (1205)
+  K2: mean (weight)                        1 (8208)            1 (106)
+
+Falcon Score Strat=j. 801-850
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1236673)           0 (1242)
+  K2: mean (weight)                        1 (3079)             1 (69)
+
+Falcon Score Strat=l. 901-925
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238589)           0 (1243)
+  K2: mean (weight)                        1 (1163)             1 (68)
+
+Falcon Score Strat=p. 976-999
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238664)            0 (985)
+  K2: mean (weight)                        1 (1088)            1 (326)
+
+Falcon Score Strat=k. 851-900
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1237142)           0 (1195)
+  K2: mean (weight)                        1 (2610)            1 (116)
+
+PAD Strat=c. 101-200
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1011835)           0 (1210)
+  K2: mean (weight)                      1 (227917)            1 (101)
+
+PAD Strat=f. 401-500
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1216911)           0 (1265)
+  K2: mean (weight)                       1 (22841)             1 (46)
+
+PAD Strat=a. 0
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (883208)           0 (1133)
+  K2: mean (weight)                      1 (356544)            1 (178)
+
+PAD Strat=b. 1-100
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                      0 (774715)           0 (1223)
+  K2: mean (weight)                      1 (465037)             1 (88)
+
+PAD Strat=d. 201-300
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1151205)           0 (1242)
+  K2: mean (weight)                       1 (88547)             1 (69)
+
+PAD Strat=e. 301-400
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1197381)           0 (1257)
+  K2: mean (weight)                       1 (42371)             1 (54)
+
+PAD Strat=h. 601-700
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1230935)           0 (1255)
+  K2: mean (weight)                        1 (8817)             1 (56)
+
+PAD Strat=o. 951-975
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238933)           0 (1229)
+  K2: mean (weight)                         1 (819)             1 (82)
+
+PAD Strat=m. 926-950
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238847)           0 (1256)
+  K2: mean (weight)                         1 (905)             1 (55)
+
+PAD Strat=g. 501-600
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1226311)           0 (1249)
+  K2: mean (weight)                       1 (13441)             1 (62)
+
+PAD Strat=l. 901-925
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238819)           0 (1268)
+  K2: mean (weight)                         1 (933)             1 (43)
+
+PAD Strat=j. 801-850
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1237411)           0 (1249)
+  K2: mean (weight)                        1 (2341)             1 (62)
+
+PAD Strat=i. 701-800
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1233575)           0 (1208)
+  K2: mean (weight)                        1 (6177)            1 (103)
+
+PAD Strat=k. 851-900
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1237707)           0 (1218)
+  K2: mean (weight)                        1 (2045)             1 (93)
+
+PAD Strat=p. 976-999
+  [# kernels]                                     2                  2
+  [std. dev]                                 0.1667             0.1667
+  [precision]                                     1                  1
+  K1: mean (weight)                     0 (1238735)           0 (1092)
+  K2: mean (weight)                        1 (1017)            1 (219)
+
+
+
+Time taken to build model: 24.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     1232983               99.3489 %
+Incorrectly Classified Instances      8080                0.6511 %
+Kappa statistic                          0.1287
+Mean absolute error                      0.0076
+Root mean squared error                  0.0722
+Relative absolute error                360.6921 %
+Root relative squared error            222.2831 %
+Total Number of Instances          1241063     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.994    0.539    0.999      0.994    0.997      0.185    0.962     1.000     Valid
+                 0.461    0.006    0.076      0.461    0.130      0.185    0.962     0.093     Fraud
+Weighted Avg.    0.993    0.538    0.998      0.993    0.996      0.185    0.962     0.999     
+
+=== Confusion Matrix ===
+
+       a       b   <-- classified as
+ 1232378    7374 |       a = Valid
+     706     605 |       b = Fraud
+

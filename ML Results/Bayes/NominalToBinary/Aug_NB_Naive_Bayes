@@ -1,0 +1,627 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Test_Data_August_all-weka.filters.unsupervised.attribute.Remove-R1,5,10-11-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.supervised.attribute.NominalToBinary
+Instances:    1241063
+Attributes:   84
+              Trn Typ=M
+              Trn Typ=A
+              Trn Typ=P
+              Trn Typ=C
+              Trn Typ=I
+              Trn Typ=V
+              Trn Typ=O
+              Dollar Strat=b1. $ 1-25
+              Dollar Strat=a. < $ 1
+              Dollar Strat=b2. $ 26-50
+              Dollar Strat=b3. $ 51-100
+              Dollar Strat=b4. $ 101-200
+              Dollar Strat=c1. $ 201-250
+              Dollar Strat=g. $ 901-1000
+              Dollar Strat=c3. $ 351-500
+              Dollar Strat=c2. $ 251-350
+              Dollar Strat=d2. $ 601-700
+              Dollar Strat=h. $ 1001-2000
+              Dollar Strat=d1. $ 501-600
+              Dollar Strat=i. $ 2001-5000
+              Dollar Strat=e. $ 701-800
+              Dollar Strat=f. $ 801-900
+              Dollar Strat=i. $ 5001-10000
+              Dollar Strat=j. over $ 10000
+              Transaction Tag
+              Trn Cvv Vrfy Cd=V
+              Trn Cvv Vrfy Cd=0
+              Trn Cvv Vrfy Cd=I
+              Trn Pos Ent Cd=V
+              Trn Pos Ent Cd=K
+              Trn Pos Ent Cd=E
+              Trn Pos Ent Cd=U
+              Trn Pos Ent Cd=C
+              Trn Pos Ent Cd=D
+              Trn Pos Ent Cd=S
+              Trn Pos Ent Cd=T
+              Sic Cd
+              Mer Cnty Cd
+              Diffzip3=DiffZip3
+              Travel_Ent_SIC
+              SIC1
+              SIC2
+              Metro
+              VAA Strat=c. 11-20
+              VAA Strat=d. 21-30
+              VAA Strat=e. 31-40
+              VAA Strat=b. 1-10
+              VAA Strat=g. 51-60
+              VAA Strat=f. 41-50
+              VAA Strat=h. 61-70
+              VAA Strat=i. 71-80
+              VAA Strat=j. 81-90
+              VAA Strat=a. 0-null
+              VAA Strat=k. 91-99
+              Falcon Score Strat=c. 101-200
+              Falcon Score Strat=a. 0
+              Falcon Score Strat=b. 1-100
+              Falcon Score Strat=f. 401-500
+              Falcon Score Strat=d. 201-300
+              Falcon Score Strat=g. 501-600
+              Falcon Score Strat=h. 601-700
+              Falcon Score Strat=o. 951-975
+              Falcon Score Strat=m. 926-950
+              Falcon Score Strat=e. 301-400
+              Falcon Score Strat=i. 701-800
+              Falcon Score Strat=j. 801-850
+              Falcon Score Strat=l. 901-925
+              Falcon Score Strat=p. 976-999
+              Falcon Score Strat=k. 851-900
+              PAD Strat=c. 101-200
+              PAD Strat=f. 401-500
+              PAD Strat=a. 0
+              PAD Strat=b. 1-100
+              PAD Strat=d. 201-300
+              PAD Strat=e. 301-400
+              PAD Strat=h. 601-700
+              PAD Strat=o. 951-975
+              PAD Strat=m. 926-950
+              PAD Strat=g. 501-600
+              PAD Strat=l. 901-925
+              PAD Strat=j. 801-850
+              PAD Strat=i. 701-800
+              PAD Strat=k. 851-900
+              PAD Strat=p. 976-999
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                    Class
+Attribute                           Valid     Fraud
+                                      (1)       (0)
+====================================================
+Trn Typ=M
+  mean                               0.882    0.9138
+  std. dev.                         0.3226    0.2806
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Typ=A
+  mean                              0.0307    0.0374
+  std. dev.                         0.1725    0.1897
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Typ=P
+  mean                              0.0812    0.0458
+  std. dev.                         0.2731     0.209
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Typ=C
+  mean                              0.0045    0.0023
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Typ=I
+  mean                              0.0008         0
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Typ=V
+  mean                                   0         0
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Typ=O
+  mean                              0.0008    0.0008
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=b1. $ 1-25
+  mean                              0.5461    0.3318
+  std. dev.                         0.4979    0.4709
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=a. < $ 1
+  mean                              0.0428    0.0824
+  std. dev.                         0.2025    0.2749
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=b2. $ 26-50
+  mean                              0.1739    0.1076
+  std. dev.                          0.379    0.3098
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=b3. $ 51-100
+  mean                              0.1201     0.119
+  std. dev.                          0.325    0.3238
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=b4. $ 101-200
+  mean                              0.0692    0.1014
+  std. dev.                         0.2538    0.3019
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=c1. $ 201-250
+  mean                              0.0124    0.0442
+  std. dev.                         0.1667    0.2056
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=g. $ 901-1000
+  mean                               0.001     0.013
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=c3. $ 351-500
+  mean                              0.0092    0.0534
+  std. dev.                         0.1667    0.2248
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=c2. $ 251-350
+  mean                              0.0128    0.0389
+  std. dev.                         0.1667    0.1934
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=d2. $ 601-700
+  mean                              0.0019    0.0153
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=h. $ 1001-2000
+  mean                              0.0033    0.0244
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=d1. $ 501-600
+  mean                              0.0031    0.0351
+  std. dev.                         0.1667     0.184
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=i. $ 2001-5000
+  mean                              0.0015    0.0145
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=e. $ 701-800
+  mean                              0.0014    0.0099
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=f. $ 801-900
+  mean                               0.001    0.0084
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=i. $ 5001-10000
+  mean                              0.0003         0
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Dollar Strat=j. over $ 10000
+  mean                              0.0001    0.0008
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Cvv Vrfy Cd=V
+  mean                              0.7724    0.7025
+  std. dev.                         0.4193    0.4572
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Cvv Vrfy Cd=0
+  mean                              0.2242    0.2853
+  std. dev.                          0.417    0.4515
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Cvv Vrfy Cd=I
+  mean                              0.0034    0.0122
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Trn Pos Ent Cd=V
+  mean                              0.1517    0.0031
+  std. dev.                         0.3587    0.1667
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Trn Pos Ent Cd=K
+  mean                              0.1349    0.2321
+  std. dev.                         0.3416    0.4221
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Trn Pos Ent Cd=E
+  mean                              0.1768    0.3954
+  std. dev.                         0.3815    0.4889
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Trn Pos Ent Cd=U
+  mean                              0.5359    0.3687
+  std. dev.                         0.4987    0.4825
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Trn Pos Ent Cd=C
+  mean                              0.0006    0.0008
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Trn Pos Ent Cd=D
+  mean                              0.0002         0
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Trn Pos Ent Cd=S
+  mean                                   0         0
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Trn Pos Ent Cd=T
+  mean                                   0         0
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239053      1310
+  precision                              1         1
+
+Sic Cd
+  mean                           5802.9774 5727.7116
+  std. dev.                       991.5807 1042.2765
+  weight sum                       1239750      1311
+  precision                        19.8811   19.8811
+
+Mer Cnty Cd
+  mean                            834.0144  806.2372
+  std. dev.                         37.956  123.0173
+  weight sum                       1234765      1304
+  precision                          6.748     6.748
+
+Diffzip3=DiffZip3
+  mean                              0.4791    0.9619
+  std. dev.                         0.4996    0.1915
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Travel_Ent_SIC
+  mean                              0.7863    0.8505
+  std. dev.                         0.4099    0.3566
+  weight sum                       1239752      1311
+  precision                              1         1
+
+SIC1
+  mean                              5.1856    5.1251
+  std. dev.                         1.0282    1.0206
+  weight sum                       1239750      1311
+  precision                              1         1
+
+SIC2
+  mean                             57.8058    57.091
+  std. dev.                         9.8647   10.2934
+  weight sum                       1239750      1311
+  precision                         1.7963    1.7963
+
+Metro
+  mean                             10.4898   10.9481
+  std. dev.                        10.7522   11.0004
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=c. 11-20
+  mean                              0.4522    0.0473
+  std. dev.                         0.4977    0.2123
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=d. 21-30
+  mean                              0.1989    0.1785
+  std. dev.                         0.3992    0.3829
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=e. 31-40
+  mean                              0.0455    0.3333
+  std. dev.                         0.2084    0.4714
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=b. 1-10
+  mean                              0.2955    0.0084
+  std. dev.                         0.4563    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=g. 51-60
+  mean                              0.0018    0.0801
+  std. dev.                         0.1667    0.2714
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=f. 41-50
+  mean                               0.004    0.1037
+  std. dev.                         0.1667    0.3049
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=h. 61-70
+  mean                               0.001    0.0709
+  std. dev.                         0.1667    0.2567
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=i. 71-80
+  mean                              0.0006    0.0763
+  std. dev.                         0.1667    0.2654
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=j. 81-90
+  mean                              0.0003     0.058
+  std. dev.                         0.1667    0.2337
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=a. 0-null
+  mean                              0.0001         0
+  std. dev.                         0.1667    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+VAA Strat=k. 91-99
+  mean                              0.0001    0.0435
+  std. dev.                         0.1667    0.2039
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=c. 101-200
+  mean                              0.2364    0.0313
+  std. dev.                         0.4249    0.1741
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=a. 0
+  mean                              0.0369    0.0656
+  std. dev.                         0.1884    0.2476
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=b. 1-100
+  mean                              0.5275    0.0137
+  std. dev.                         0.4992    0.1667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=f. 401-500
+  mean                              0.0242    0.0359
+  std. dev.                         0.1667    0.1859
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=d. 201-300
+  mean                              0.0919    0.0381
+  std. dev.                         0.2889    0.1915
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=g. 501-600
+  mean                              0.0144    0.0404
+  std. dev.                         0.1667     0.197
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=h. 601-700
+  mean                              0.0094    0.0465
+  std. dev.                         0.1667    0.2106
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=o. 951-975
+  mean                              0.0008    0.1114
+  std. dev.                         0.1667    0.3146
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=m. 926-950
+  mean                              0.0009    0.0595
+  std. dev.                         0.1667    0.2366
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=e. 301-400
+  mean                              0.0447    0.0351
+  std. dev.                         0.2066     0.184
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=i. 701-800
+  mean                              0.0066    0.0809
+  std. dev.                         0.1667    0.2726
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=j. 801-850
+  mean                              0.0025    0.0526
+  std. dev.                         0.1667    0.2233
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=l. 901-925
+  mean                              0.0009    0.0519
+  std. dev.                         0.1667    0.2218
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=p. 976-999
+  mean                              0.0009    0.2487
+  std. dev.                         0.1667    0.4322
+  weight sum                       1239752      1311
+  precision                              1         1
+
+Falcon Score Strat=k. 851-900
+  mean                              0.0021    0.0885
+  std. dev.                         0.1667     0.284
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=c. 101-200
+  mean                              0.1838     0.077
+  std. dev.                         0.3874    0.2667
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=f. 401-500
+  mean                              0.0184    0.0351
+  std. dev.                         0.1667     0.184
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=a. 0
+  mean                              0.2876    0.1358
+  std. dev.                         0.4526    0.3425
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=b. 1-100
+  mean                              0.3751    0.0671
+  std. dev.                         0.4841    0.2502
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=d. 201-300
+  mean                              0.0714    0.0526
+  std. dev.                         0.2575    0.2233
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=e. 301-400
+  mean                              0.0342    0.0412
+  std. dev.                         0.1817    0.1987
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=h. 601-700
+  mean                              0.0071    0.0427
+  std. dev.                         0.1667    0.2022
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=o. 951-975
+  mean                              0.0007    0.0625
+  std. dev.                         0.1667    0.2421
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=m. 926-950
+  mean                              0.0007     0.042
+  std. dev.                         0.1667    0.2005
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=g. 501-600
+  mean                              0.0108    0.0473
+  std. dev.                         0.1667    0.2123
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=l. 901-925
+  mean                              0.0008    0.0328
+  std. dev.                         0.1667    0.1781
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=j. 801-850
+  mean                              0.0019    0.0473
+  std. dev.                         0.1667    0.2123
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=i. 701-800
+  mean                               0.005    0.0786
+  std. dev.                         0.1667    0.2691
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=k. 851-900
+  mean                              0.0016    0.0709
+  std. dev.                         0.1667    0.2567
+  weight sum                       1239752      1311
+  precision                              1         1
+
+PAD Strat=p. 976-999
+  mean                              0.0008     0.167
+  std. dev.                         0.1667     0.373
+  weight sum                       1239752      1311
+  precision                              1         1
+
+
+
+Time taken to build model: 23.38 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     1216263               98.0017 %
+Incorrectly Classified Instances     24800                1.9983 %
+Kappa statistic                          0.0672
+Mean absolute error                      0.0213
+Root mean squared error                  0.1307
+Relative absolute error               1010.6978 %
+Root relative squared error            402.3825 %
+Total Number of Instances          1241063     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.980    0.298    1.000      0.980    0.990      0.157    0.966     1.000     Valid
+                 0.702    0.020    0.036      0.702    0.069      0.157    0.966     0.033     Fraud
+Weighted Avg.    0.980    0.298    0.999      0.980    0.989      0.157    0.966     0.999     
+
+=== Confusion Matrix ===
+
+       a       b   <-- classified as
+ 1215343   24409 |       a = Valid
+     391     920 |       b = Fraud
+
